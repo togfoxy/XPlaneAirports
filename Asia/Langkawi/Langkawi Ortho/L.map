@@ -1,0 +1,30 @@
+OziExplorer Map Data File Version 2.2
+L
+L.jpg
+1 ,Map Code,
+WGS 84,,   0.0000,   0.0000,WGS 84
+Reserved 1
+Reserved 2
+Magnetic Variation,,,E
+Map Projection,Mercator,PolyCal,No,AutoCalOnly,No,BSBUseWPX,No
+Point01,xy,0,0,in, deg,6,17.86602,N,99,41.70547,E, grid,,,,N
+Point02,xy,5856,0,in, deg,6,17.86602,N,99,42.17669,E, grid,,,,N
+Point03,xy,5856,4720,in, deg,6,17.48851,N,99,42.17669,E, grid,,,,N
+Point04,xy,0,4720,in, deg,6,17.48851,N,99,41.70547,E, grid,,,,N
+Projection Setup,,,,,,,,,,
+Map Feature = MF ; Map Comment = MC     These follow if they exist
+Track File = TF      These follow if they exist
+Moving Map Parameters = MM?    These follow if they exist
+MM0,No
+MMPNUM,4
+MMPXY,1,0,0
+MMPXY,2,5856,0
+MMPXY,3,5856,4720
+MMPXY,4,0,4720
+MMPLL,1,99.695091,6.297767
+MMPLL,2,99.702945,6.297767
+MMPLL,3,99.702945,6.291475
+MMPLL,4,99.695091,6.291475
+MOP,Map Open Position,0,0
+IWH,Map Image Width/Height,5856,4720
+MM1B,0.1479

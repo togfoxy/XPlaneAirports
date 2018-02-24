@@ -32,7 +32,7 @@
             <children/>
             <hierarchy name="selection"/>
             <selection>
-                <sel id="7172"/>
+                <sel id="7519"/>
             </selection>
         </object>
         <object class="WED_Group" id="7170" parent_id="4">
@@ -146,6 +146,13 @@
             <point heading="120.83" latitude="6.293119245" longitude="99.699736235"/>
             <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/dh-RnchRHGry.obj" show_level="1 Default"/>
         </object>
+        <object class="WED_SimpleBoundaryNode" id="7382" parent_id="7374">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 7"/>
+            <point latitude="6.380843840" longitude="99.777704648"/>
+        </object>
         <object class="WED_ObjPlacement" id="6871" parent_id="6895">
             <sources/>
             <viewers/>
@@ -154,6 +161,13 @@
             <point heading="101.47" latitude="6.295343747" longitude="99.701929694"/>
             <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/dL-RnchLHRd.obj" show_level="1 Default"/>
         </object>
+        <object class="WED_SimpleBoundaryNode" id="7383" parent_id="7374">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 8"/>
+            <point latitude="6.380820510" longitude="99.777968741"/>
+        </object>
         <object class="WED_ObjPlacement" id="6872" parent_id="6895">
             <sources/>
             <viewers/>
@@ -161,6 +175,13 @@
             <hierarchy hidden="0" locked="0" name="dB-RnchLHGry.obj"/>
             <point heading="80.79" latitude="6.295529494" longitude="99.702132472"/>
             <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/dB-RnchLHGry.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7384" parent_id="7374">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 9"/>
+            <point latitude="6.380756354" longitude="99.778138935"/>
         </object>
         <object class="WED_ObjPlacement" id="6875" parent_id="6895">
             <sources/>
@@ -403,6 +424,105 @@
                 <child id="7116"/>
                 <child id="7115"/>
                 <child id="7114"/>
+                <child id="7303"/>
+                <child id="7302"/>
+                <child id="7301"/>
+                <child id="7300"/>
+                <child id="7299"/>
+                <child id="7298"/>
+                <child id="7297"/>
+                <child id="7296"/>
+                <child id="7295"/>
+                <child id="7294"/>
+                <child id="7293"/>
+                <child id="7292"/>
+                <child id="7291"/>
+                <child id="7290"/>
+                <child id="7289"/>
+                <child id="7288"/>
+                <child id="7287"/>
+                <child id="7286"/>
+                <child id="7285"/>
+                <child id="7284"/>
+                <child id="7283"/>
+                <child id="7282"/>
+                <child id="7281"/>
+                <child id="7280"/>
+                <child id="7279"/>
+                <child id="7278"/>
+                <child id="7277"/>
+                <child id="7276"/>
+                <child id="7275"/>
+                <child id="7274"/>
+                <child id="7273"/>
+                <child id="7272"/>
+                <child id="7271"/>
+                <child id="7270"/>
+                <child id="7269"/>
+                <child id="7268"/>
+                <child id="7267"/>
+                <child id="7266"/>
+                <child id="7265"/>
+                <child id="7264"/>
+                <child id="7263"/>
+                <child id="7262"/>
+                <child id="7261"/>
+                <child id="7260"/>
+                <child id="7259"/>
+                <child id="7258"/>
+                <child id="7257"/>
+                <child id="7256"/>
+                <child id="7255"/>
+                <child id="7253"/>
+                <child id="7252"/>
+                <child id="7251"/>
+                <child id="7250"/>
+                <child id="7249"/>
+                <child id="7248"/>
+                <child id="7247"/>
+                <child id="7246"/>
+                <child id="7245"/>
+                <child id="7244"/>
+                <child id="7243"/>
+                <child id="7242"/>
+                <child id="7241"/>
+                <child id="7240"/>
+                <child id="7239"/>
+                <child id="7237"/>
+                <child id="7236"/>
+                <child id="7235"/>
+                <child id="7234"/>
+                <child id="7233"/>
+                <child id="7232"/>
+                <child id="7231"/>
+                <child id="7230"/>
+                <child id="7229"/>
+                <child id="7228"/>
+                <child id="7227"/>
+                <child id="7226"/>
+                <child id="7225"/>
+                <child id="7224"/>
+                <child id="7223"/>
+                <child id="7222"/>
+                <child id="7220"/>
+                <child id="7219"/>
+                <child id="7218"/>
+                <child id="7217"/>
+                <child id="7216"/>
+                <child id="7215"/>
+                <child id="7214"/>
+                <child id="7213"/>
+                <child id="7212"/>
+                <child id="7211"/>
+                <child id="7210"/>
+                <child id="7209"/>
+                <child id="7208"/>
+                <child id="7207"/>
+                <child id="7206"/>
+                <child id="7205"/>
+                <child id="7203"/>
+                <child id="7202"/>
+                <child id="7254"/>
             </children>
             <hierarchy hidden="0" locked="0" name="Objects"/>
         </object>
@@ -575,7 +695,7 @@
             <children>
                 <child id="6915"/>
             </children>
-            <hierarchy hidden="0" locked="1" name="L2.jpg"/>
+            <hierarchy hidden="1" locked="1" name="L2.jpg"/>
             <draped_orthophoto heading="0.0" length="0.00" resource="Ortho 2\L2.jpg" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
         <object class="WED_ForestRing" id="6921" parent_id="6922">
@@ -1252,6 +1372,7 @@
                 <child id="6973"/>
                 <child id="6955"/>
                 <child id="6922"/>
+                <child id="7305"/>
             </children>
             <hierarchy hidden="0" locked="0" name="Forests"/>
         </object>
@@ -1406,7 +1527,6 @@
                 <child id="7035"/>
                 <child id="7036"/>
                 <child id="7037"/>
-                <child id="7038"/>
                 <child id="7039"/>
                 <child id="7040"/>
                 <child id="7041"/>
@@ -1506,14 +1626,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Node 11"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="6.294500100" longitude="99.702151500" split="0"/>
-        </object>
-        <object class="WED_SimpleBezierBoundaryNode" id="7038" parent_id="7025">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="Node 12"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="6.294508039" longitude="99.702108143" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="6.294458047" longitude="99.702071767" split="0"/>
         </object>
         <object class="WED_SimpleBezierBoundaryNode" id="7039" parent_id="7025">
             <sources/>
@@ -1603,10 +1716,36 @@
             <sources/>
             <viewers/>
             <children>
+                <child id="7519"/>
+                <child id="7502"/>
+                <child id="7487"/>
+                <child id="7473"/>
+                <child id="7461"/>
+                <child id="7453"/>
+                <child id="7443"/>
+                <child id="7433"/>
+                <child id="7426"/>
+                <child id="7414"/>
+                <child id="7375"/>
+                <child id="7348"/>
+                <child id="7346"/>
+                <child id="7345"/>
+                <child id="7344"/>
+                <child id="7343"/>
+                <child id="7342"/>
+                <child id="7341"/>
+                <child id="7340"/>
+                <child id="7339"/>
+                <child id="7338"/>
+                <child id="7337"/>
+                <child id="7336"/>
+                <child id="7335"/>
+                <child id="7334"/>
+                <child id="7201"/>
                 <child id="6920"/>
                 <child id="6914"/>
             </children>
-            <hierarchy hidden="1" locked="0" name="Orthos"/>
+            <hierarchy hidden="0" locked="0" name="Orthos"/>
         </object>
         <object class="WED_ForestRing" id="7052" parent_id="7053">
             <sources/>
@@ -2709,6 +2848,2629 @@
             </children>
             <hierarchy hidden="0" locked="0" name="Ground colours"/>
         </object>
+        <object class="WED_Ring" id="7196" parent_id="7201">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="7197"/>
+                <child id="7198"/>
+                <child id="7199"/>
+                <child id="7200"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Image Boundary"/>
+        </object>
+        <object class="WED_TextureBezierNode" id="7197" parent_id="7196">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 1"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="6.373819000" longitude="99.770987000" split="0"/>
+            <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
+        </object>
+        <object class="WED_TextureBezierNode" id="7198" parent_id="7196">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 2"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="6.373819000" longitude="99.778669000" split="0"/>
+            <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
+        </object>
+        <object class="WED_TextureBezierNode" id="7199" parent_id="7196">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 3"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="6.381240000" longitude="99.778669000" split="0"/>
+            <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
+        </object>
+        <object class="WED_TextureBezierNode" id="7200" parent_id="7196">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 4"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="6.381240000" longitude="99.770987000" split="0"/>
+            <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
+        </object>
+        <object class="WED_DrapedOrthophoto" id="7201" parent_id="7051">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="7196"/>
+            </children>
+            <hierarchy hidden="0" locked="1" name="L3.jpg"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="Ortho 2\L3.jpg" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="6.381" width="0.00"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7202" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Z-RnchRHRd.obj"/>
+            <point heading="157.07" latitude="6.376899458" longitude="99.776831440"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/Z-RnchRHRd.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7203" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Z-RnchRHGry.obj"/>
+            <point heading="109.65" latitude="6.377694800" longitude="99.777042063"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/Z-RnchRHGry.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7205" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Z-RnchLHRd.obj"/>
+            <point heading="113.30" latitude="6.377485536" longitude="99.776967551"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/Z-RnchLHRd.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7206" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Z-RnchLHGry.obj"/>
+            <point heading="112.67" latitude="6.377971309" longitude="99.777097529"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/Z-RnchLHGry.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7207" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="U-RnchRHGry.obj"/>
+            <point heading="112.91" latitude="6.378090458" longitude="99.777241005"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/U-RnchRHGry.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7208" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="U-RnchLHGry.obj"/>
+            <point heading="111.15" latitude="6.378295549" longitude="99.777305863"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/U-RnchLHGry.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7209" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="U-RnchGryNG.obj"/>
+            <point heading="111.70" latitude="6.378524080" longitude="99.777317656"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/U-RnchGryNG.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7210" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="T-RnchRHRd.obj"/>
+            <point heading="110.36" latitude="6.378715499" longitude="99.777402169"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/T-RnchRHRd.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7211" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="T-RnchRHGry.obj"/>
+            <point heading="111.11" latitude="6.378846367" longitude="99.777490613"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/T-RnchRHGry.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7212" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="T-RnchLHGry.obj"/>
+            <point heading="112.20" latitude="6.379143262" longitude="99.777561368"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/T-RnchLHGry.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7213" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="SmlRnchGry.obj"/>
+            <point heading="112.58" latitude="6.379334681" longitude="99.777624262"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/SmlRnchGry.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7214" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="L-RnchRHGry.obj"/>
+            <point heading="115.07" latitude="6.379707909" longitude="99.777881732"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/L-RnchRHGry.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7215" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="L-RnchLHRd.obj"/>
+            <point heading="65.27" latitude="6.376459223" longitude="99.777201952"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/L-RnchLHRd.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7216" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="L-RnchLHGry.obj"/>
+            <point heading="86.25" latitude="6.375854496" longitude="99.777479311"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/L-RnchLHGry.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7217" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="h-RnchRHGryDk.obj"/>
+            <point heading="148.90" latitude="6.376648165" longitude="99.776602747"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/h-RnchRHGryDk.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7218" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="h-RnchRHGry.obj"/>
+            <point heading="328.32" latitude="6.376479404" longitude="99.776779635"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/h-RnchRHGry.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7219" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="dZ-RnchRHRd.obj"/>
+            <point heading="63.43" latitude="6.376602224" longitude="99.776266898"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/dZ-RnchRHRd.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7220" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="dZ-RnchRHGry.obj"/>
+            <point heading="154.65" latitude="6.376346270" longitude="99.776122558"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/dZ-RnchRHGry.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7222" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="dZ-RnchLHRd.obj"/>
+            <point heading="67.31" latitude="6.376813176" longitude="99.776119728"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/dZ-RnchLHRd.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7223" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="dZ-RnchLHGry.obj"/>
+            <point heading="69.57" latitude="6.377001626" longitude="99.776026331"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/dZ-RnchLHGry.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7224" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="dU-RnchRHGry.obj"/>
+            <point heading="72.72" latitude="6.377170387" longitude="99.775938595"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/dU-RnchRHGry.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7225" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="dU-RnchLHGry.obj"/>
+            <point heading="158.37" latitude="6.376148206" longitude="99.775730811"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/dU-RnchLHGry.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7226" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="dU-RnchGryNG.obj"/>
+            <point heading="250.10" latitude="6.376583782" longitude="99.775650229"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/dU-RnchGryNG.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7227" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="dT-RnchRHRd.obj"/>
+            <point heading="247.20" latitude="6.376814391" longitude="99.775538955"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/dT-RnchRHRd.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7228" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="dT-RnchRHGry.obj"/>
+            <point heading="341.57" latitude="6.377101285" longitude="99.775576314"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/dT-RnchRHGry.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7229" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="dT-RnchLHGry.obj"/>
+            <point heading="175.60" latitude="6.377249795" longitude="99.775623861"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/dT-RnchLHGry.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7230" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="dSmlRnchGry.obj"/>
+            <point heading="20.46" latitude="6.379738435" longitude="99.776820362"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/dSmlRnchGry.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7231" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="dL-RnchRHGry.obj"/>
+            <point heading="22.00" latitude="6.379800315" longitude="99.776644889"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/dL-RnchRHGry.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7232" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="dL-RnchLHRd.obj"/>
+            <point heading="25.58" latitude="6.379867819" longitude="99.776438283"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/dL-RnchLHRd.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7233" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="dL-RnchLHGry.obj"/>
+            <point heading="199.90" latitude="6.379867819" longitude="99.777094893"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/dL-RnchLHGry.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7234" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="dh-RnchRHGryDk.obj"/>
+            <point heading="201.21" latitude="6.379957825" longitude="99.776879796"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/dh-RnchRHGryDk.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7235" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="dh-RnchRHGry.obj"/>
+            <point heading="199.98" latitude="6.380157526" longitude="99.776803381"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/dh-RnchRHGry.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7236" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="dB-RnchLHGry.obj"/>
+            <point heading="198.89" latitude="6.380118148" longitude="99.776466585"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/dB-RnchLHGry.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7237" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="dB-RnchLH.obj"/>
+            <point heading="203.47" latitude="6.380405042" longitude="99.776152431"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/dB-RnchLH.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7239" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="B-RnchLHGry.obj"/>
+            <point heading="202.29" latitude="6.380357227" longitude="99.775866580"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/B-RnchLHGry.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7240" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="B-RnchLH.obj"/>
+            <point heading="194.21" latitude="6.380424731" longitude="99.775665634"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/B-RnchLH.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7241" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Z-RnchRHRd.obj"/>
+            <point heading="17.22" latitude="6.380053456" longitude="99.775654314"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/Z-RnchRHRd.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7242" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Z-RnchRHGry.obj"/>
+            <point heading="110.77" latitude="6.380115336" longitude="99.775275065"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/Z-RnchRHGry.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7243" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Z-RnchLHRd.obj"/>
+            <point heading="288.90" latitude="6.379533109" longitude="99.775198650"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/Z-RnchLHRd.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7244" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Z-RnchLHGry.obj"/>
+            <point heading="115.67" latitude="6.379789064" longitude="99.776101487"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/Z-RnchLHGry.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7245" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="U-RnchRHGry.obj"/>
+            <point heading="117.47" latitude="6.379597801" longitude="99.775951486"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/U-RnchRHGry.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7246" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="U-RnchLHGry.obj"/>
+            <point heading="117.95" latitude="6.379299656" longitude="99.775892051"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/U-RnchLHGry.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7247" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="U-RnchGryNG.obj"/>
+            <point heading="112.44" latitude="6.379167460" longitude="99.775727899"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/U-RnchGryNG.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7248" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="T-RnchRHRd.obj"/>
+            <point heading="111.80" latitude="6.378829937" longitude="99.776599603"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/T-RnchRHRd.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7249" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="T-RnchRHGry.obj"/>
+            <point heading="110.96" latitude="6.379268717" longitude="99.776769416"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/T-RnchRHGry.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7250" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="T-RnchLHGry.obj"/>
+            <point heading="291.89" latitude="6.378928381" longitude="99.776854322"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/T-RnchLHGry.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7251" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="SmlRnchGry.obj"/>
+            <point heading="290.11" latitude="6.378498040" longitude="99.776800548"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/SmlRnchGry.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7252" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="L-RnchRHGry.obj"/>
+            <point heading="287.35" latitude="6.378689303" longitude="99.776933568"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/L-RnchRHGry.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7253" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="L-RnchLHRd.obj"/>
+            <point heading="286.91" latitude="6.378253336" longitude="99.776673189"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/L-RnchLHRd.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7254" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="L-RnchLHGry.obj"/>
+            <point heading="294.82" latitude="6.378062073" longitude="99.776548660"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/L-RnchLHGry.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7255" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="h-RnchRHGryDk.obj"/>
+            <point heading="109.49" latitude="6.378489602" longitude="99.776390169"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/h-RnchRHGryDk.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7256" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="h-RnchRHGry.obj"/>
+            <point heading="107.42" latitude="6.378270212" longitude="99.776322244"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/h-RnchRHGry.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7257" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="dZ-RnchRHRd.obj"/>
+            <point heading="111.80" latitude="6.378017070" longitude="99.776200545"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/dZ-RnchRHRd.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7258" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="dZ-RnchRHGry.obj"/>
+            <point heading="109.72" latitude="6.377699237" longitude="99.776095828"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/dZ-RnchRHGry.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7259" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="dZ-RnchLHRd.obj"/>
+            <point heading="201.80" latitude="6.377783617" longitude="99.775617524"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/dZ-RnchLHRd.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7260" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="dZ-RnchLHGry.obj"/>
+            <point heading="114.44" latitude="6.378036759" longitude="99.775877903"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/dZ-RnchLHGry.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7261" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="dU-RnchRHGry.obj"/>
+            <point heading="110.17" latitude="6.378093013" longitude="99.775623185"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/dU-RnchRHGry.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7262" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="dU-RnchLHGry.obj"/>
+            <point heading="113.53" latitude="6.378208333" longitude="99.775934507"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/dU-RnchLHGry.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7263" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="dU-RnchGryNG.obj"/>
+            <point heading="205.77" latitude="6.378526167" longitude="99.775863752"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/dU-RnchGryNG.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7264" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="dT-RnchRHRd.obj"/>
+            <point heading="25.39" latitude="6.378377095" longitude="99.775747713"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/dT-RnchRHRd.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7265" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="dT-RnchRHGry.obj"/>
+            <point heading="109.80" latitude="6.378728680" longitude="99.774731670"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/dT-RnchRHGry.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7266" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="dT-RnchLHGry.obj"/>
+            <point heading="290.85" latitude="6.378638674" longitude="99.775009030"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/dT-RnchLHGry.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7267" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="dSmlRnchGry.obj"/>
+            <point heading="24.78" latitude="6.378815874" longitude="99.775178842"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/dSmlRnchGry.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7268" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="dL-RnchRHGry.obj"/>
+            <point heading="24.19" latitude="6.379209650" longitude="99.774612801"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/dL-RnchRHGry.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7269" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="dL-RnchLHRd.obj"/>
+            <point heading="94.62" latitude="6.379201212" longitude="99.774873180"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/dL-RnchLHRd.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7270" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="dL-RnchLHGry.obj"/>
+            <point heading="156.37" latitude="6.379218088" longitude="99.773902419"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/dL-RnchLHGry.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7271" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="dh-RnchRHGryDk.obj"/>
+            <point heading="64.34" latitude="6.379049327" longitude="99.773769399"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/dh-RnchRHGryDk.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7272" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="dh-RnchRHGry.obj"/>
+            <point heading="108.63" latitude="6.378838375" longitude="99.774165628"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/dh-RnchRHGry.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7273" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="dB-RnchLHGry.obj"/>
+            <point heading="174.19" latitude="6.379538172" longitude="99.774604310"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/dB-RnchLHGry.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7274" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="dB-RnchLH.obj"/>
+            <point heading="338.59" latitude="6.375815392" longitude="99.775511241"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/dB-RnchLH.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7275" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="B-RnchLHGry.obj"/>
+            <point heading="336.60" latitude="6.375972434" longitude="99.775765958"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/B-RnchLHGry.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7276" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="B-RnchLH.obj"/>
+            <point heading="334.16" latitude="6.375712260" longitude="99.775190486"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/B-RnchLH.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7277" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Z-RnchRHRd.obj"/>
+            <point heading="62.85" latitude="6.375704291" longitude="99.774906052"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/Z-RnchRHRd.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7278" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Z-RnchRHGry.obj"/>
+            <point heading="314.59" latitude="6.375470838" longitude="99.774481524"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/Z-RnchRHGry.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7279" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Z-RnchLHRd.obj"/>
+            <point heading="317.49" latitude="6.375507403" longitude="99.774702279"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/Z-RnchLHRd.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7280" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Z-RnchLHGry.obj"/>
+            <point heading="75.58" latitude="6.375991185" longitude="99.774634354"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/Z-RnchLHGry.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7281" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="U-RnchRHGry.obj"/>
+            <point heading="242.93" latitude="6.375600221" longitude="99.774034354"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/U-RnchRHGry.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7282" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="U-RnchLHGry.obj"/>
+            <point heading="257.82" latitude="6.376157134" longitude="99.773762656"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/U-RnchLHGry.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7283" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="U-RnchGryNG.obj"/>
+            <point heading="163.39" latitude="6.376452466" longitude="99.773904165"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/U-RnchGryNG.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7284" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="T-RnchRHRd.obj"/>
+            <point heading="132.09" latitude="6.376953124" longitude="99.773397561"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/T-RnchRHRd.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7285" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="T-RnchRHGry.obj"/>
+            <point heading="272.06" latitude="6.376621227" longitude="99.773592844"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/T-RnchRHGry.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7286" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="T-RnchLHGry.obj"/>
+            <point heading="359.14" latitude="6.377031879" longitude="99.773918316"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/T-RnchLHGry.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7287" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="SmlRnchGry.obj"/>
+            <point heading="110.75" latitude="6.376694357" longitude="99.774198506"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/SmlRnchGry.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7288" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="L-RnchRHGry.obj"/>
+            <point heading="292.57" latitude="6.376865931" longitude="99.773745675"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/L-RnchRHGry.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7289" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="L-RnchLHRd.obj"/>
+            <point heading="21.25" latitude="6.376736547" longitude="99.774028694"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/L-RnchLHRd.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7290" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="L-RnchLHGry.obj"/>
+            <point heading="185.71" latitude="6.376798426" longitude="99.773176805"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/L-RnchLHGry.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7291" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="h-RnchRHGryDk.obj"/>
+            <point heading="110.70" latitude="6.376382149" longitude="99.773114541"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/h-RnchRHGryDk.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7292" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="h-RnchRHGry.obj"/>
+            <point heading="292.57" latitude="6.376151508" longitude="99.773261711"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/h-RnchRHGry.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7293" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="dZ-RnchRHRd.obj"/>
+            <point heading="105.55" latitude="6.375867427" longitude="99.772868315"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/dZ-RnchRHRd.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7294" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="dZ-RnchRHGry.obj"/>
+            <point heading="104.77" latitude="6.375707103" longitude="99.772783409"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/dZ-RnchRHGry.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7295" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="dZ-RnchLHRd.obj"/>
+            <point heading="289.41" latitude="6.375611472" longitude="99.773151334"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/dZ-RnchLHRd.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7296" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="dZ-RnchLHGry.obj"/>
+            <point heading="43.58" latitude="6.375029246" longitude="99.772834353"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/dZ-RnchLHGry.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7297" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="dU-RnchRHGry.obj"/>
+            <point heading="90.00" latitude="6.375498965" longitude="99.772769259"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/dU-RnchRHGry.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7298" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="dU-RnchLHGry.obj"/>
+            <point heading="334.91" latitude="6.374888611" longitude="99.773796616"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/dU-RnchLHGry.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7299" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="dU-RnchGryNG.obj"/>
+            <point heading="335.64" latitude="6.375020808" longitude="99.773946616"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/dU-RnchGryNG.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7300" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="dT-RnchRHRd.obj"/>
+            <point heading="330.89" latitude="6.375186756" longitude="99.774130578"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/dT-RnchRHRd.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7301" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="dT-RnchRHGry.obj"/>
+            <point heading="327.44" latitude="6.375209258" longitude="99.774371144"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/dT-RnchRHGry.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7302" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="dT-RnchLHGry.obj"/>
+            <point heading="245.19" latitude="6.374984243" longitude="99.774521144"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/dT-RnchLHGry.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7303" parent_id="6895">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="dSmlRnchGry.obj"/>
+            <point heading="242.03" latitude="6.374852046" longitude="99.774589068"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/dSmlRnchGry.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ForestRing" id="7304" parent_id="7305">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="7306"/>
+                <child id="7307"/>
+                <child id="7308"/>
+                <child id="7309"/>
+                <child id="7310"/>
+                <child id="7311"/>
+                <child id="7312"/>
+                <child id="7313"/>
+                <child id="7314"/>
+                <child id="7315"/>
+                <child id="7316"/>
+                <child id="7317"/>
+                <child id="7318"/>
+                <child id="7319"/>
+                <child id="7320"/>
+                <child id="7321"/>
+                <child id="7322"/>
+                <child id="7323"/>
+                <child id="7324"/>
+                <child id="7325"/>
+                <child id="7326"/>
+                <child id="7327"/>
+                <child id="7328"/>
+                <child id="7329"/>
+                <child id="7330"/>
+                <child id="7331"/>
+                <child id="7332"/>
+                <child id="7333"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Forest 1 outer ring"/>
+        </object>
+        <object class="WED_ForestPlacement" id="7305" parent_id="7004">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="7304"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="AG_trees_EU1.for"/>
+            <forest_placement closed="Area" density="0.5" resource="lib/g10/forests/AG_trees_EU1.for"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7306" parent_id="7304">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 1"/>
+            <point latitude="6.374544278" longitude="99.773844323"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7307" parent_id="7304">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 2"/>
+            <point latitude="6.374316815" longitude="99.773920616"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7308" parent_id="7304">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 3"/>
+            <point latitude="6.374305150" longitude="99.774131887"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7309" parent_id="7304">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 4"/>
+            <point latitude="6.374392636" longitude="99.774390108"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7310" parent_id="7304">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 5"/>
+            <point latitude="6.374550110" longitude="99.774366634"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7311" parent_id="7304">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 6"/>
+            <point latitude="6.374474289" longitude="99.774601380"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7312" parent_id="7304">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 7"/>
+            <point latitude="6.374555943" longitude="99.774818520"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7313" parent_id="7304">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 8"/>
+            <point latitude="6.374456792" longitude="99.774859601"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7314" parent_id="7304">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 9"/>
+            <point latitude="6.374404301" longitude="99.774677672"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7315" parent_id="7304">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 10"/>
+            <point latitude="6.374200167" longitude="99.774566168"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7316" parent_id="7304">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 11"/>
+            <point latitude="6.374077687" longitude="99.774695278"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7317" parent_id="7304">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 12"/>
+            <point latitude="6.374229329" longitude="99.774865469"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7318" parent_id="7304">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 13"/>
+            <point latitude="6.374474289" longitude="99.775041529"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7319" parent_id="7304">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 14"/>
+            <point latitude="6.374690088" longitude="99.774894813"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7320" parent_id="7304">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 15"/>
+            <point latitude="6.374818400" longitude="99.775176508"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7321" parent_id="7304">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 16"/>
+            <point latitude="6.374935048" longitude="99.775329093"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7322" parent_id="7304">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 17"/>
+            <point latitude="6.375150847" longitude="99.775205852"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7323" parent_id="7304">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 18"/>
+            <point latitude="6.375238332" longitude="99.774930025"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7324" parent_id="7304">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 19"/>
+            <point latitude="6.375226668" longitude="99.774624855"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7325" parent_id="7304">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 20"/>
+            <point latitude="6.375092523" longitude="99.774736359"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7326" parent_id="7304">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 21"/>
+            <point latitude="6.374900054" longitude="99.774783308"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7327" parent_id="7304">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 22"/>
+            <point latitude="6.374649261" longitude="99.774730490"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7328" parent_id="7304">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 23"/>
+            <point latitude="6.374608434" longitude="99.774513350"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7329" parent_id="7304">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 24"/>
+            <point latitude="6.374742579" longitude="99.774472269"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7330" parent_id="7304">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 25"/>
+            <point latitude="6.374940880" longitude="99.774437057"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7331" parent_id="7304">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 26"/>
+            <point latitude="6.374999204" longitude="99.774255129"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7332" parent_id="7304">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 27"/>
+            <point latitude="6.374882557" longitude="99.773961696"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7333" parent_id="7304">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 28"/>
+            <point latitude="6.374690088" longitude="99.773832586"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7334" parent_id="7051">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="B-RnchLH.obj"/>
+            <point heading="23.81" latitude="6.379060064" longitude="99.775121569"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/B-RnchLH.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7335" parent_id="7051">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="B-RnchLHGry.obj"/>
+            <point heading="202.71" latitude="6.379211949" longitude="99.775413646"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/B-RnchLHGry.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7336" parent_id="7051">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="dB-RnchLH.obj"/>
+            <point heading="294.30" latitude="6.379822865" longitude="99.775420439"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/dB-RnchLH.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7337" parent_id="7051">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="dB-RnchLH.obj"/>
+            <point heading="98.33" latitude="6.380646420" longitude="99.775451005"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/dB-RnchLH.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7338" parent_id="7051">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="dB-RnchLHGry.obj"/>
+            <point heading="180.00" latitude="6.380767928" longitude="99.775580063"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/dB-RnchLHGry.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7339" parent_id="7051">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="dh-RnchRHGry.obj"/>
+            <point heading="106.56" latitude="6.379709822" longitude="99.777534373"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/dh-RnchRHGry.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7340" parent_id="7051">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="dh-RnchRHGryDk.obj"/>
+            <point heading="113.20" latitude="6.379940463" longitude="99.777658902"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/dh-RnchRHGryDk.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7341" parent_id="7051">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="dL-RnchLHGry.obj"/>
+            <point heading="207.05" latitude="6.380318240" longitude="99.777774107"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/dL-RnchLHGry.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7342" parent_id="7051">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="dL-RnchLHRd.obj"/>
+            <point heading="208.55" latitude="6.380652950" longitude="99.777989203"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/dL-RnchLHRd.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7343" parent_id="7051">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="dL-RnchRHGry.obj"/>
+            <point heading="111.10" latitude="6.377286410" longitude="99.776778238"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/dL-RnchRHGry.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7344" parent_id="7051">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="dSmlRnchGry.obj"/>
+            <point heading="264.07" latitude="6.377296536" longitude="99.777297863"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/dSmlRnchGry.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7345" parent_id="7051">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="dT-RnchLHGry.obj"/>
+            <point heading="259.62" latitude="6.377384292" longitude="99.776391068"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/dT-RnchLHGry.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="7346" parent_id="7051">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="dT-RnchRHGry.obj"/>
+            <point heading="112.95" latitude="6.379071905" longitude="99.776516729"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/suburban/dT-RnchRHGry.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ForestRing" id="7347" parent_id="7348">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="7349"/>
+                <child id="7350"/>
+                <child id="7351"/>
+                <child id="7352"/>
+                <child id="7353"/>
+                <child id="7354"/>
+                <child id="7355"/>
+                <child id="7356"/>
+                <child id="7357"/>
+                <child id="7358"/>
+                <child id="7359"/>
+                <child id="7360"/>
+                <child id="7361"/>
+                <child id="7362"/>
+                <child id="7363"/>
+                <child id="7364"/>
+                <child id="7365"/>
+                <child id="7366"/>
+                <child id="7367"/>
+                <child id="7368"/>
+                <child id="7369"/>
+                <child id="7370"/>
+                <child id="7371"/>
+                <child id="7372"/>
+                <child id="7373"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Forest 2 outer ring"/>
+        </object>
+        <object class="WED_ForestPlacement" id="7348" parent_id="7051">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="7347"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="AG_trees_EU1.for"/>
+            <forest_placement closed="Area" density="0.3" resource="lib/g10/forests/AG_trees_EU1.for"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7349" parent_id="7347">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 1"/>
+            <point latitude="6.379998066" longitude="99.775796043"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7350" parent_id="7347">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 2"/>
+            <point latitude="6.379893434" longitude="99.775694155"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7351" parent_id="7347">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 3"/>
+            <point latitude="6.379893434" longitude="99.775571890"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7352" parent_id="7347">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 4"/>
+            <point latitude="6.379964314" longitude="99.775480191"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7353" parent_id="7347">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 5"/>
+            <point latitude="6.379869808" longitude="99.775497173"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7354" parent_id="7347">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 6"/>
+            <point latitude="6.379822555" longitude="99.775650004"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7355" parent_id="7347">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 7"/>
+            <point latitude="6.379674045" longitude="99.775639815"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7356" parent_id="7347">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 8"/>
+            <point latitude="6.379518784" longitude="99.775599060"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7357" parent_id="7347">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 9"/>
+            <point latitude="6.379488407" longitude="99.775442833"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7358" parent_id="7347">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 10"/>
+            <point latitude="6.379434404" longitude="99.775463210"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7359" parent_id="7347">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 11"/>
+            <point latitude="6.379353398" longitude="99.775568494"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7360" parent_id="7347">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 12"/>
+            <point latitude="6.379329772" longitude="99.775724721"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7361" parent_id="7347">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 13"/>
+            <point latitude="6.379458030" longitude="99.775779062"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7362" parent_id="7347">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 14"/>
+            <point latitude="6.379545786" longitude="99.775806232"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7363" parent_id="7347">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 15"/>
+            <point latitude="6.379609915" longitude="99.775714533"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7364" parent_id="7347">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 16"/>
+            <point latitude="6.379724673" longitude="99.775782458"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7365" parent_id="7347">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 17"/>
+            <point latitude="6.379842806" longitude="99.775891138"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7366" parent_id="7347">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 18"/>
+            <point latitude="6.379937312" longitude="99.776037177"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7367" parent_id="7347">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 19"/>
+            <point latitude="6.379910311" longitude="99.776152649"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7368" parent_id="7347">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 20"/>
+            <point latitude="6.379819179" longitude="99.776254537"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7369" parent_id="7347">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 21"/>
+            <point latitude="6.379900185" longitude="99.776339443"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7370" parent_id="7347">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 22"/>
+            <point latitude="6.380008192" longitude="99.776373406"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7371" parent_id="7347">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 23"/>
+            <point latitude="6.380058820" longitude="99.776162838"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7372" parent_id="7347">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 24"/>
+            <point latitude="6.379991316" longitude="99.775942082"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7373" parent_id="7347">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 25"/>
+            <point latitude="6.379974440" longitude="99.775935289"/>
+        </object>
+        <object class="WED_ForestRing" id="7374" parent_id="7375">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="7376"/>
+                <child id="7377"/>
+                <child id="7378"/>
+                <child id="7379"/>
+                <child id="7380"/>
+                <child id="7381"/>
+                <child id="7382"/>
+                <child id="7383"/>
+                <child id="7384"/>
+                <child id="7385"/>
+                <child id="7386"/>
+                <child id="7387"/>
+                <child id="7388"/>
+                <child id="7389"/>
+                <child id="7390"/>
+                <child id="7391"/>
+                <child id="7392"/>
+                <child id="7393"/>
+                <child id="7394"/>
+                <child id="7395"/>
+                <child id="7396"/>
+                <child id="7397"/>
+                <child id="7398"/>
+                <child id="7399"/>
+                <child id="7400"/>
+                <child id="7401"/>
+                <child id="7402"/>
+                <child id="7403"/>
+                <child id="7404"/>
+                <child id="7405"/>
+                <child id="7406"/>
+                <child id="7407"/>
+                <child id="7408"/>
+                <child id="7409"/>
+                <child id="7410"/>
+                <child id="7411"/>
+                <child id="7412"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Forest 3 outer ring"/>
+        </object>
+        <object class="WED_ForestPlacement" id="7375" parent_id="7051">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="7374"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="AG_trees_EU1.for"/>
+            <forest_placement closed="Area" density="0.3" resource="lib/g10/forests/AG_trees_EU1.for"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7376" parent_id="7374">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 1"/>
+            <point latitude="6.380383081" longitude="99.776806732"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7377" parent_id="7374">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 2"/>
+            <point latitude="6.380814678" longitude="99.776988663"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7378" parent_id="7374">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 3"/>
+            <point latitude="6.380972152" longitude="99.776712832"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7379" parent_id="7374">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 4"/>
+            <point latitude="6.381164621" longitude="99.776789126"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7380" parent_id="7374">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 5"/>
+            <point latitude="6.380995482" longitude="99.777264493"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7381" parent_id="7374">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 6"/>
+            <point latitude="6.380925493" longitude="99.777358393"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7385" parent_id="7374">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 10"/>
+            <point latitude="6.380552220" longitude="99.778050904"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7386" parent_id="7374">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 11"/>
+            <point latitude="6.380493896" longitude="99.778127197"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7387" parent_id="7374">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 12"/>
+            <point latitude="6.380738857" longitude="99.778268047"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7388" parent_id="7374">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 13"/>
+            <point latitude="6.381158789" longitude="99.778461715"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7389" parent_id="7374">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 14"/>
+            <point latitude="6.381217112" longitude="99.778191753"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7390" parent_id="7374">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 15"/>
+            <point latitude="6.381217112" longitude="99.776941713"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7391" parent_id="7374">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 16"/>
+            <point latitude="6.381205448" longitude="99.776067272"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7392" parent_id="7374">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 17"/>
+            <point latitude="6.381234610" longitude="99.774705727"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7393" parent_id="7374">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 18"/>
+            <point latitude="6.381088800" longitude="99.774758545"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7394" parent_id="7374">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 19"/>
+            <point latitude="6.380861337" longitude="99.775040244"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7395" parent_id="7374">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 20"/>
+            <point latitude="6.380534723" longitude="99.774917001"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7396" parent_id="7374">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 21"/>
+            <point latitude="6.380301427" longitude="99.774758545"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7397" parent_id="7374">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 22"/>
+            <point latitude="6.380108958" longitude="99.774400553"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7398" parent_id="7374">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 23"/>
+            <point latitude="6.380167282" longitude="99.773960398"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7399" parent_id="7374">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 24"/>
+            <point latitude="6.379630703" longitude="99.773936923"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7400" parent_id="7374">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 25"/>
+            <point latitude="6.379490725" longitude="99.774054298"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7401" parent_id="7374">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 26"/>
+            <point latitude="6.379753183" longitude="99.774294916"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7402" parent_id="7374">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 27"/>
+            <point latitude="6.379910657" longitude="99.774629433"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7403" parent_id="7374">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 28"/>
+            <point latitude="6.380138120" longitude="99.774817232"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7404" parent_id="7374">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 29"/>
+            <point latitude="6.380313092" longitude="99.775104800"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7405" parent_id="7374">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 30"/>
+            <point latitude="6.380622209" longitude="99.775181094"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7406" parent_id="7374">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 31"/>
+            <point latitude="6.380832175" longitude="99.775380631"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7407" parent_id="7374">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 32"/>
+            <point latitude="6.380942990" longitude="99.775474530"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7408" parent_id="7374">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 33"/>
+            <point latitude="6.380942990" longitude="99.775627117"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7409" parent_id="7374">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 34"/>
+            <point latitude="6.380773851" longitude="99.775697542"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7410" parent_id="7374">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 35"/>
+            <point latitude="6.380628041" longitude="99.775949898"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7411" parent_id="7374">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 36"/>
+            <point latitude="6.380709695" longitude="99.776155303"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7412" parent_id="7374">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 37"/>
+            <point latitude="6.380581382" longitude="99.776454609"/>
+        </object>
+        <object class="WED_ForestRing" id="7413" parent_id="7414">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="7415"/>
+                <child id="7416"/>
+                <child id="7417"/>
+                <child id="7418"/>
+                <child id="7419"/>
+                <child id="7420"/>
+                <child id="7421"/>
+                <child id="7422"/>
+                <child id="7423"/>
+                <child id="7424"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Forest 4 outer ring"/>
+        </object>
+        <object class="WED_ForestPlacement" id="7414" parent_id="7051">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="7413"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="AG_trees_EU1.for"/>
+            <forest_placement closed="Area" density="0.3" resource="lib/g10/forests/AG_trees_EU1.for"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7415" parent_id="7413">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 1"/>
+            <point latitude="6.378483109" longitude="99.774982913"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7416" parent_id="7413">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 2"/>
+            <point latitude="6.378298416" longitude="99.774904664"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7417" parent_id="7413">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 3"/>
+            <point latitude="6.378181769" longitude="99.775066053"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7418" parent_id="7413">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 4"/>
+            <point latitude="6.377972775" longitude="99.775119849"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7419" parent_id="7413">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 5"/>
+            <point latitude="6.377831825" longitude="99.775476862"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7420" parent_id="7413">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 6"/>
+            <point latitude="6.377919311" longitude="99.775457300"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7421" parent_id="7413">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 7"/>
+            <point latitude="6.378220651" longitude="99.775506206"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7422" parent_id="7413">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 8"/>
+            <point latitude="6.378356740" longitude="99.775491534"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7423" parent_id="7413">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 9"/>
+            <point latitude="6.378444226" longitude="99.775344816"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7424" parent_id="7413">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 10"/>
+            <point latitude="6.378487969" longitude="99.775114959"/>
+        </object>
+        <object class="WED_ForestRing" id="7425" parent_id="7426">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="7427"/>
+                <child id="7428"/>
+                <child id="7429"/>
+                <child id="7430"/>
+                <child id="7431"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Forest 5 outer ring"/>
+        </object>
+        <object class="WED_ForestPlacement" id="7426" parent_id="7051">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="7425"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="AG_trees_EU1.for"/>
+            <forest_placement closed="Area" density="0.3" resource="lib/g10/forests/AG_trees_EU1.for"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7427" parent_id="7425">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 1"/>
+            <point latitude="6.378732110" longitude="99.775740714"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7428" parent_id="7425">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 2"/>
+            <point latitude="6.378663256" longitude="99.775830375"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7429" parent_id="7425">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 3"/>
+            <point latitude="6.378493144" longitude="99.776152339"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7430" parent_id="7425">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 4"/>
+            <point latitude="6.378699708" longitude="99.776225698"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7431" parent_id="7425">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 5"/>
+            <point latitude="6.378881970" longitude="99.775814073"/>
+        </object>
+        <object class="WED_ForestRing" id="7432" parent_id="7433">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="7434"/>
+                <child id="7435"/>
+                <child id="7436"/>
+                <child id="7437"/>
+                <child id="7438"/>
+                <child id="7439"/>
+                <child id="7440"/>
+                <child id="7441"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Forest 6 outer ring"/>
+        </object>
+        <object class="WED_ForestPlacement" id="7433" parent_id="7051">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="7432"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="AG_trees_EU1.for"/>
+            <forest_placement closed="Area" density="0.3" resource="lib/g10/forests/AG_trees_EU1.for"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7434" parent_id="7432">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 1"/>
+            <point latitude="6.379411746" longitude="99.777145946"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7435" parent_id="7432">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 2"/>
+            <point latitude="6.379415796" longitude="99.777125569"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7436" parent_id="7432">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 3"/>
+            <point latitude="6.379330740" longitude="99.777349721"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7437" parent_id="7432">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 4"/>
+            <point latitude="6.379440098" longitude="99.777394552"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7438" parent_id="7432">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 5"/>
+            <point latitude="6.379517053" longitude="99.777590176"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7439" parent_id="7432">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 6"/>
+            <point latitude="6.379638561" longitude="99.777345646"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7440" parent_id="7432">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 7"/>
+            <point latitude="6.379626410" longitude="99.777056285"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7441" parent_id="7432">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 8"/>
+            <point latitude="6.379476550" longitude="99.776982926"/>
+        </object>
+        <object class="WED_ForestRing" id="7442" parent_id="7443">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="7444"/>
+                <child id="7445"/>
+                <child id="7446"/>
+                <child id="7447"/>
+                <child id="7448"/>
+                <child id="7449"/>
+                <child id="7450"/>
+                <child id="7451"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Forest 7 outer ring"/>
+        </object>
+        <object class="WED_ForestPlacement" id="7443" parent_id="7051">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="7442"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="AG_trees_EU1.for"/>
+            <forest_placement closed="Area" density="0.5" resource="lib/g10/forests/AG_trees_EU1.for"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7444" parent_id="7442">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 1"/>
+            <point latitude="6.376432387" longitude="99.777821773"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7445" parent_id="7442">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 2"/>
+            <point latitude="6.376825444" longitude="99.778633060"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7446" parent_id="7442">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 3"/>
+            <point latitude="6.378417826" longitude="99.778572213"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7447" parent_id="7442">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 4"/>
+            <point latitude="6.379556682" longitude="99.778612778"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7448" parent_id="7442">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 5"/>
+            <point latitude="6.380796321" longitude="99.778592496"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7449" parent_id="7442">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 6"/>
+            <point latitude="6.378982215" longitude="99.777831912"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7450" parent_id="7442">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 7"/>
+            <point latitude="6.377964300" longitude="99.777547960"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7451" parent_id="7442">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 8"/>
+            <point latitude="6.377268892" longitude="99.777639234"/>
+        </object>
+        <object class="WED_ForestRing" id="7452" parent_id="7453">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="7454"/>
+                <child id="7455"/>
+                <child id="7456"/>
+                <child id="7457"/>
+                <child id="7458"/>
+                <child id="7459"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Forest 8 outer ring"/>
+        </object>
+        <object class="WED_ForestPlacement" id="7453" parent_id="7051">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="7452"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="AG_trees_EU1.for"/>
+            <forest_placement closed="Area" density="0.5" resource="lib/g10/forests/AG_trees_EU1.for"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7454" parent_id="7452">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 1"/>
+            <point latitude="6.373858854" longitude="99.777979095"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7455" parent_id="7452">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 2"/>
+            <point latitude="6.373976435" longitude="99.778621362"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7456" parent_id="7452">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 3"/>
+            <point latitude="6.375672960" longitude="99.778570656"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7457" parent_id="7452">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 4"/>
+            <point latitude="6.375488190" longitude="99.778165015"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7458" parent_id="7452">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 5"/>
+            <point latitude="6.374942278" longitude="99.778021350"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7459" parent_id="7452">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 6"/>
+            <point latitude="6.374228394" longitude="99.777903038"/>
+        </object>
+        <object class="WED_ForestRing" id="7460" parent_id="7461">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="7462"/>
+                <child id="7463"/>
+                <child id="7464"/>
+                <child id="7465"/>
+                <child id="7466"/>
+                <child id="7467"/>
+                <child id="7468"/>
+                <child id="7469"/>
+                <child id="7470"/>
+                <child id="7471"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Forest 9 outer ring"/>
+        </object>
+        <object class="WED_ForestPlacement" id="7461" parent_id="7051">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="7460"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="AG_trees_EU1.for"/>
+            <forest_placement closed="Area" density="0.3" resource="lib/g10/forests/AG_trees_EU1.for"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7462" parent_id="7460">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 1"/>
+            <point latitude="6.375877605" longitude="99.774133739"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7463" parent_id="7460">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 2"/>
+            <point latitude="6.375960231" longitude="99.774221769"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7464" parent_id="7460">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 3"/>
+            <point latitude="6.375994253" longitude="99.774412501"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7465" parent_id="7460">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 4"/>
+            <point latitude="6.376062298" longitude="99.774490750"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7466" parent_id="7460">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 5"/>
+            <point latitude="6.376203247" longitude="99.774637467"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7467" parent_id="7460">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 6"/>
+            <point latitude="6.376256711" longitude="99.774544546"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7468" parent_id="7460">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 7"/>
+            <point latitude="6.376106041" longitude="99.774334252"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7469" parent_id="7460">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 8"/>
+            <point latitude="6.376096320" longitude="99.774123958"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7470" parent_id="7460">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 9"/>
+            <point latitude="6.375974812" longitude="99.774016365"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7471" parent_id="7460">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 10"/>
+            <point latitude="6.375785259" longitude="99.774035928"/>
+        </object>
+        <object class="WED_ForestRing" id="7472" parent_id="7473">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="7474"/>
+                <child id="7475"/>
+                <child id="7476"/>
+                <child id="7477"/>
+                <child id="7478"/>
+                <child id="7479"/>
+                <child id="7480"/>
+                <child id="7481"/>
+                <child id="7482"/>
+                <child id="7483"/>
+                <child id="7484"/>
+                <child id="7485"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Forest 10 outer ring"/>
+        </object>
+        <object class="WED_ForestPlacement" id="7473" parent_id="7051">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="7472"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="AG_trees_EU1.for"/>
+            <forest_placement closed="Area" density="0.3" resource="lib/g10/forests/AG_trees_EU1.for"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7474" parent_id="7472">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 1"/>
+            <point latitude="6.376237286" longitude="99.773473181"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7475" parent_id="7472">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 2"/>
+            <point latitude="6.376092151" longitude="99.773456200"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7476" parent_id="7472">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 3"/>
+            <point latitude="6.375879512" longitude="99.773432426"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7477" parent_id="7472">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 4"/>
+            <point latitude="6.375653372" longitude="99.773361105"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7478" parent_id="7472">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 5"/>
+            <point latitude="6.375592618" longitude="99.773425634"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7479" parent_id="7472">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 6"/>
+            <point latitude="6.375538614" longitude="99.773670162"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7480" parent_id="7472">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 7"/>
+            <point latitude="6.375616244" longitude="99.773761860"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7481" parent_id="7472">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 8"/>
+            <point latitude="6.375690499" longitude="99.773612426"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7482" parent_id="7472">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 9"/>
+            <point latitude="6.375805257" longitude="99.773564879"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7483" parent_id="7472">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 10"/>
+            <point latitude="6.375923390" longitude="99.773707521"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7484" parent_id="7472">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 11"/>
+            <point latitude="6.376014521" longitude="99.773690540"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7485" parent_id="7472">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 12"/>
+            <point latitude="6.376217034" longitude="99.773612426"/>
+        </object>
+        <object class="WED_ForestRing" id="7486" parent_id="7487">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="7488"/>
+                <child id="7489"/>
+                <child id="7490"/>
+                <child id="7491"/>
+                <child id="7492"/>
+                <child id="7493"/>
+                <child id="7494"/>
+                <child id="7495"/>
+                <child id="7496"/>
+                <child id="7497"/>
+                <child id="7498"/>
+                <child id="7499"/>
+                <child id="7500"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Forest 11 outer ring"/>
+        </object>
+        <object class="WED_ForestPlacement" id="7487" parent_id="7051">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="7486"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="AG_trees_EU1.for"/>
+            <forest_placement closed="Area" density="0.3" resource="lib/g10/forests/AG_trees_EU1.for"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7488" parent_id="7486">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 1"/>
+            <point latitude="6.376748775" longitude="99.772983701"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7489" parent_id="7486">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 2"/>
+            <point latitude="6.376912082" longitude="99.772930883"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7490" parent_id="7486">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 3"/>
+            <point latitude="6.377122048" longitude="99.772995438"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7491" parent_id="7486">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 4"/>
+            <point latitude="6.377168707" longitude="99.772731347"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7492" parent_id="7486">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 5"/>
+            <point latitude="6.376987903" longitude="99.772743085"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7493" parent_id="7486">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 6"/>
+            <point latitude="6.376713781" longitude="99.772801772"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7494" parent_id="7486">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 7"/>
+            <point latitude="6.376462988" longitude="99.772596368"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7495" parent_id="7486">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 8"/>
+            <point latitude="6.376381335" longitude="99.772426176"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7496" parent_id="7486">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 9"/>
+            <point latitude="6.376293849" longitude="99.772561155"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7497" parent_id="7486">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 10"/>
+            <point latitude="6.376387167" longitude="99.772690267"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7498" parent_id="7486">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 11"/>
+            <point latitude="6.376521312" longitude="99.772790034"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7499" parent_id="7486">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 12"/>
+            <point latitude="6.376591301" longitude="99.773001307"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7500" parent_id="7486">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 13"/>
+            <point latitude="6.376643792" longitude="99.773089337"/>
+        </object>
+        <object class="WED_ForestRing" id="7501" parent_id="7502">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="7503"/>
+                <child id="7504"/>
+                <child id="7505"/>
+                <child id="7506"/>
+                <child id="7507"/>
+                <child id="7508"/>
+                <child id="7509"/>
+                <child id="7510"/>
+                <child id="7511"/>
+                <child id="7512"/>
+                <child id="7513"/>
+                <child id="7514"/>
+                <child id="7515"/>
+                <child id="7516"/>
+                <child id="7517"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Forest 12 outer ring"/>
+        </object>
+        <object class="WED_ForestPlacement" id="7502" parent_id="7051">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="7501"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="AG_trees_EU1.for"/>
+            <forest_placement closed="Area" density="0.3" resource="lib/g10/forests/AG_trees_EU1.for"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7503" parent_id="7501">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 1"/>
+            <point latitude="6.380175206" longitude="99.773937968"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7504" parent_id="7501">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 2"/>
+            <point latitude="6.379990436" longitude="99.773828105"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7505" parent_id="7501">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 3"/>
+            <point latitude="6.379721680" longitude="99.773659087"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7506" parent_id="7501">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 4"/>
+            <point latitude="6.379570504" longitude="99.773405559"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7507" parent_id="7501">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 5"/>
+            <point latitude="6.379268153" longitude="99.773109777"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7508" parent_id="7501">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 6"/>
+            <point latitude="6.378957403" longitude="99.773008366"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7509" parent_id="7501">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 7"/>
+            <point latitude="6.378613059" longitude="99.773075974"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7510" parent_id="7501">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 8"/>
+            <point latitude="6.378319107" longitude="99.773244992"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7511" parent_id="7501">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 9"/>
+            <point latitude="6.378167931" longitude="99.773574578"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7512" parent_id="7501">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 10"/>
+            <point latitude="6.378369498" longitude="99.773743596"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7513" parent_id="7501">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 11"/>
+            <point latitude="6.378604660" longitude="99.773937968"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7514" parent_id="7501">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 12"/>
+            <point latitude="6.378747437" longitude="99.773845007"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7515" parent_id="7501">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 13"/>
+            <point latitude="6.378923809" longitude="99.773397109"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7516" parent_id="7501">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 14"/>
+            <point latitude="6.379259754" longitude="99.773566127"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7517" parent_id="7501">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 15"/>
+            <point latitude="6.379494916" longitude="99.773971771"/>
+        </object>
+        <object class="WED_ForestRing" id="7518" parent_id="7519">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="7520"/>
+                <child id="7521"/>
+                <child id="7522"/>
+                <child id="7523"/>
+                <child id="7524"/>
+                <child id="7525"/>
+                <child id="7526"/>
+                <child id="7527"/>
+                <child id="7528"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Forest 13 outer ring"/>
+        </object>
+        <object class="WED_ForestPlacement" id="7519" parent_id="7051">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="7518"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="AG_trees_EU1.for"/>
+            <forest_placement closed="Area" density="0.3" resource="lib/g10/forests/AG_trees_EU1.for"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7520" parent_id="7518">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 1"/>
+            <point latitude="6.378862817" longitude="99.777180383"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7521" parent_id="7518">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 2"/>
+            <point latitude="6.378533870" longitude="99.777018407"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7522" parent_id="7518">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 3"/>
+            <point latitude="6.378274912" longitude="99.776870516"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7523" parent_id="7518">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 4"/>
+            <point latitude="6.378008955" longitude="99.776715582"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7524" parent_id="7518">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 5"/>
+            <point latitude="6.377729000" longitude="99.776821219"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7525" parent_id="7518">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 6"/>
+            <point latitude="6.378106939" longitude="99.776905728"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7526" parent_id="7518">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 7"/>
+            <point latitude="6.378372896" longitude="99.777018407"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7527" parent_id="7518">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 8"/>
+            <point latitude="6.378568864" longitude="99.777152213"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="7528" parent_id="7518">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 9"/>
+            <point latitude="6.378729838" longitude="99.777194468"/>
+        </object>
     </objects>
     <prefs>
         <pref name="PropertyPane0/Closed">
@@ -2718,15 +5480,15 @@
         </pref>
         <pref name="doc/export_target" value="4"/>
         <pref name="doc/use_feet" value="1"/>
-        <pref name="map/east" value="99.699440"/>
-        <pref name="map/north" value="6.298021"/>
+        <pref name="map/east" value="99.778266"/>
+        <pref name="map/north" value="6.380850"/>
         <pref name="map/obj_density" value="6"/>
         <pref name="map/pavement_alpha" value="1"/>
         <pref name="map/preview_vis" value="1"/>
         <pref name="map/real_lines_vis" value="1"/>
-        <pref name="map/south" value="6.294762"/>
+        <pref name="map/south" value="6.375182"/>
         <pref name="map/vertices_vis" value="1"/>
-        <pref name="map/west" value="99.696925"/>
+        <pref name="map/west" value="99.774009"/>
         <pref name="map/world_map_vis" value="0"/>
         <pref name="map_Airport Beacon_Kind" value="69"/>
         <pref name="map_Boundary_.Markings" value=""/>
@@ -2734,9 +5496,9 @@
         <pref name="map_Boundary_Markings" value=""/>
         <pref name="map_Exclusions_Exclusions" value="112"/>
         <pref name="map_Facades_Height" value="10.000000"/>
-        <pref name="map_Facades_Resource" value="lib/g10/autogen/point_building_30x30_16.fac"/>
-        <pref name="map_Forests_Density" value="1.000000"/>
-        <pref name="map_Forests_Resource" value="lib/g8/broad_cld_rain.for"/>
+        <pref name="map_Facades_Resource" value="lib/g10/autogen/ind_high_solid_40_v1.fac"/>
+        <pref name="map_Forests_Density" value="0.300000"/>
+        <pref name="map_Forests_Resource" value="lib/g10/forests/AG_trees_EU1.for"/>
         <pref name="map_Helipad_Edge Lights" value="15"/>
         <pref name="map_Helipad_Markings" value="67"/>
         <pref name="map_Helipad_Roughness" value="0.000000"/>
@@ -2748,10 +5510,10 @@
         <pref name="map_Light Fixture_Approach Angle" value="3.000000"/>
         <pref name="map_Light Fixture_Fixture Type" value="35"/>
         <pref name="map_Lines_Resource" value="CDB-Library/Airport/paviment/dashed_line.lin"/>
-        <pref name="map_Objects_Object" value="lib/g10/US/suburban/h-RnchRHGry.obj"/>
+        <pref name="map_Objects_Object" value="lib/g10/US/suburban/dT-RnchRHGry.obj"/>
         <pref name="map_Objects_Show with" value="558"/>
         <pref name="map_Polygons_Heading" value="0.000000"/>
-        <pref name="map_Polygons_Resource" value="lib/g10/terrain10/any_hot_dry_fl_tp.pol"/>
+        <pref name="map_Polygons_Resource" value="lib/g10/autogen/ind_high_solid_90_v0.ags"/>
         <pref name="map_Polygons_Use Texture Map - Orthophoto" value="0"/>
         <pref name="map_Ramp Start_Airlines" value=""/>
         <pref name="map_Ramp Start_Equipment Type" value="130,131,132"/>
@@ -2799,10 +5561,10 @@
         <pref name="map_Vertex_Snap To Vertices" value="1"/>
         <pref name="map_Windsock_Lit" value="0"/>
         <pref name="window/height" value="827"/>
-        <pref name="window/main_split" value="370"/>
+        <pref name="window/main_split" value="386"/>
         <pref name="window/main_split2" value="1074"/>
-        <pref name="window/prev_split" value="285"/>
-        <pref name="window/prop_split" value="356"/>
+        <pref name="window/prev_split" value="295"/>
+        <pref name="window/prop_split" value="212"/>
         <pref name="window/width" value="1440"/>
         <pref name="window/x_loc" value="-1448"/>
         <pref name="window/y_loc" value="168"/>

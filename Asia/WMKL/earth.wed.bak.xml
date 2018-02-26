@@ -71,9 +71,7 @@
             <viewers/>
             <children/>
             <hierarchy name="selection"/>
-            <selection>
-                <sel id="691"/>
-            </selection>
+            <selection/>
         </object>
         <object class="WED_FacadeNode" id="514" parent_id="511">
             <sources/>
@@ -150,7 +148,7 @@
                 <child id="374"/>
             </children>
             <hierarchy hidden="0" locked="0" name="Langkawi Intl"/>
-            <airport always_flatten="0" drive_on_left="0" elevation="8.5" has_atc="1" icao="WMKL" kind="Airport" scenery_id="41169"/>
+            <airport always_flatten="0" drive_on_left="0" elevation="8.5" has_atc="1" icao="WMKL" kind="Airport" scenery_id="58474"/>
             <meta_data>
                 <meta_data_entry pair="city,Langkawi"/>
                 <meta_data_entry pair="country,Malaysia"/>
@@ -3725,6 +3723,26 @@
             <sources/>
             <viewers/>
             <children>
+                <child id="714"/>
+                <child id="715"/>
+                <child id="712"/>
+                <child id="713"/>
+                <child id="710"/>
+                <child id="711"/>
+                <child id="708"/>
+                <child id="709"/>
+                <child id="706"/>
+                <child id="707"/>
+                <child id="704"/>
+                <child id="705"/>
+                <child id="702"/>
+                <child id="703"/>
+                <child id="700"/>
+                <child id="701"/>
+                <child id="698"/>
+                <child id="699"/>
+                <child id="696"/>
+                <child id="697"/>
                 <child id="364"/>
                 <child id="366"/>
                 <child id="367"/>
@@ -3768,6 +3786,7 @@
                 <child id="553"/>
                 <child id="554"/>
                 <child id="555"/>
+                <child id="692"/>
             </children>
             <hierarchy hidden="0" locked="0" name="Objects"/>
         </object>
@@ -5377,7 +5396,6 @@
                 <child id="644"/>
                 <child id="647"/>
                 <child id="615"/>
-                <child id="607"/>
                 <child id="613"/>
                 <child id="617"/>
                 <child id="612"/>
@@ -5398,8 +5416,6 @@
                 <child id="640"/>
                 <child id="643"/>
                 <child id="646"/>
-                <child id="605"/>
-                <child id="606"/>
                 <child id="601"/>
                 <child id="602"/>
                 <child id="599"/>
@@ -5422,6 +5438,9 @@
                 <child id="584"/>
                 <child id="603"/>
                 <child id="597"/>
+                <child id="718"/>
+                <child id="716"/>
+                <child id="717"/>
             </children>
             <hierarchy hidden="0" locked="0" name="Taxi routes"/>
         </object>
@@ -5681,7 +5700,7 @@
             <viewers>
                 <viewer id="585"/>
                 <viewer id="604"/>
-                <viewer id="605"/>
+                <viewer id="718"/>
             </viewers>
             <children/>
             <hierarchy hidden="0" locked="0" name="unnamed entity(split)"/>
@@ -5707,56 +5726,12 @@
             </arrivals>
             <ils_holds/>
         </object>
-        <object class="WED_TaxiRoute" id="605" parent_id="559">
-            <sources>
-                <source id="603"/>
-                <source id="606"/>
-            </sources>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="C"/>
-            <edge ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000"/>
-            <taxi_route oneway="0" runway="None" vehicle_class="Aircraft" width="E"/>
-            <departures>
-                <runway value="03"/>
-                <runway value="21"/>
-            </departures>
-            <arrivals>
-                <runway value="03"/>
-                <runway value="21"/>
-            </arrivals>
-            <ils_holds/>
-        </object>
-        <object class="WED_TaxiRouteNode" id="606" parent_id="559">
-            <sources/>
-            <viewers>
-                <viewer id="605"/>
-                <viewer id="607"/>
-            </viewers>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="C_stop"/>
-            <point latitude="6.337813443" longitude="99.732983667"/>
-        </object>
-        <object class="WED_TaxiRoute" id="607" parent_id="559">
-            <sources>
-                <source id="606"/>
-                <source id="608"/>
-            </sources>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="C"/>
-            <edge ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000"/>
-            <taxi_route oneway="0" runway="None" vehicle_class="Aircraft" width="E"/>
-            <departures/>
-            <arrivals/>
-            <ils_holds/>
-        </object>
         <object class="WED_TaxiRouteNode" id="608" parent_id="559">
             <sources/>
             <viewers>
-                <viewer id="607"/>
                 <viewer id="614"/>
                 <viewer id="629"/>
+                <viewer id="716"/>
             </viewers>
             <children/>
             <hierarchy hidden="0" locked="0" name="C_stop"/>
@@ -6605,6 +6580,359 @@
             </arrivals>
             <ils_holds/>
         </object>
+        <object class="WED_TruckParkingLocation" id="692" parent_id="365">
+            <sources/>
+            <viewers>
+                <viewer id="696"/>
+            </viewers>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="New Service Truck 17"/>
+            <point heading="305.94" latitude="6.342341666" longitude="99.733920229"/>
+            <truck_parking_spot number_of_cars="3" type="Pushback"/>
+        </object>
+        <object class="WED_TaxiRoute" id="696" parent_id="365">
+            <sources>
+                <source id="692"/>
+                <source id="697"/>
+            </sources>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="N"/>
+            <edge ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000"/>
+            <taxi_route oneway="0" runway="None" vehicle_class="Ground Trucks" width="E"/>
+            <departures>
+                <runway value="03"/>
+                <runway value="21"/>
+            </departures>
+            <arrivals>
+                <runway value="03"/>
+                <runway value="21"/>
+            </arrivals>
+            <ils_holds/>
+        </object>
+        <object class="WED_TaxiRouteNode" id="697" parent_id="365">
+            <sources/>
+            <viewers>
+                <viewer id="696"/>
+                <viewer id="698"/>
+            </viewers>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="N_stop"/>
+            <point latitude="6.342494226" longitude="99.733683629"/>
+        </object>
+        <object class="WED_TaxiRoute" id="698" parent_id="365">
+            <sources>
+                <source id="697"/>
+                <source id="699"/>
+            </sources>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="N"/>
+            <edge ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000"/>
+            <taxi_route oneway="0" runway="None" vehicle_class="Ground Trucks" width="E"/>
+            <departures>
+                <runway value="03"/>
+                <runway value="21"/>
+            </departures>
+            <arrivals>
+                <runway value="03"/>
+                <runway value="21"/>
+            </arrivals>
+            <ils_holds/>
+        </object>
+        <object class="WED_TaxiRouteNode" id="699" parent_id="365">
+            <sources/>
+            <viewers>
+                <viewer id="698"/>
+                <viewer id="700"/>
+            </viewers>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="N_stop"/>
+            <point latitude="6.342521621" longitude="99.733496196"/>
+        </object>
+        <object class="WED_TaxiRoute" id="700" parent_id="365">
+            <sources>
+                <source id="699"/>
+                <source id="701"/>
+            </sources>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="N"/>
+            <edge ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000"/>
+            <taxi_route oneway="0" runway="None" vehicle_class="Ground Trucks" width="E"/>
+            <departures>
+                <runway value="03"/>
+                <runway value="21"/>
+            </departures>
+            <arrivals>
+                <runway value="03"/>
+                <runway value="21"/>
+            </arrivals>
+            <ils_holds/>
+        </object>
+        <object class="WED_TaxiRouteNode" id="701" parent_id="365">
+            <sources/>
+            <viewers>
+                <viewer id="700"/>
+                <viewer id="702"/>
+            </viewers>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="N_stop"/>
+            <point latitude="6.342493760" longitude="99.733330721"/>
+        </object>
+        <object class="WED_TaxiRoute" id="702" parent_id="365">
+            <sources>
+                <source id="701"/>
+                <source id="703"/>
+            </sources>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="N"/>
+            <edge ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000"/>
+            <taxi_route oneway="0" runway="None" vehicle_class="Ground Trucks" width="E"/>
+            <departures>
+                <runway value="03"/>
+                <runway value="21"/>
+            </departures>
+            <arrivals>
+                <runway value="03"/>
+                <runway value="21"/>
+            </arrivals>
+            <ils_holds/>
+        </object>
+        <object class="WED_TaxiRouteNode" id="703" parent_id="365">
+            <sources/>
+            <viewers>
+                <viewer id="702"/>
+                <viewer id="704"/>
+            </viewers>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="N_stop"/>
+            <point latitude="6.342204469" longitude="99.733066110"/>
+        </object>
+        <object class="WED_TaxiRoute" id="704" parent_id="365">
+            <sources>
+                <source id="703"/>
+                <source id="705"/>
+            </sources>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="N"/>
+            <edge ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000"/>
+            <taxi_route oneway="0" runway="None" vehicle_class="Ground Trucks" width="E"/>
+            <departures>
+                <runway value="03"/>
+                <runway value="21"/>
+            </departures>
+            <arrivals>
+                <runway value="03"/>
+                <runway value="21"/>
+            </arrivals>
+            <ils_holds/>
+        </object>
+        <object class="WED_TaxiRouteNode" id="705" parent_id="365">
+            <sources/>
+            <viewers>
+                <viewer id="704"/>
+                <viewer id="706"/>
+            </viewers>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="N_stop"/>
+            <point latitude="6.341320161" longitude="99.732457507"/>
+        </object>
+        <object class="WED_TaxiRoute" id="706" parent_id="365">
+            <sources>
+                <source id="705"/>
+                <source id="707"/>
+            </sources>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="N"/>
+            <edge ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000"/>
+            <taxi_route oneway="0" runway="None" vehicle_class="Ground Trucks" width="E"/>
+            <departures>
+                <runway value="03"/>
+                <runway value="21"/>
+            </departures>
+            <arrivals>
+                <runway value="03"/>
+                <runway value="21"/>
+            </arrivals>
+            <ils_holds/>
+        </object>
+        <object class="WED_TaxiRouteNode" id="707" parent_id="365">
+            <sources/>
+            <viewers>
+                <viewer id="706"/>
+                <viewer id="708"/>
+            </viewers>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="N_stop"/>
+            <point latitude="6.340150486" longitude="99.731682229"/>
+        </object>
+        <object class="WED_TaxiRoute" id="708" parent_id="365">
+            <sources>
+                <source id="707"/>
+                <source id="709"/>
+            </sources>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="N"/>
+            <edge ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000"/>
+            <taxi_route oneway="0" runway="None" vehicle_class="Ground Trucks" width="E"/>
+            <departures>
+                <runway value="03"/>
+                <runway value="21"/>
+            </departures>
+            <arrivals>
+                <runway value="03"/>
+                <runway value="21"/>
+            </arrivals>
+            <ils_holds/>
+        </object>
+        <object class="WED_TaxiRouteNode" id="709" parent_id="365">
+            <sources/>
+            <viewers>
+                <viewer id="708"/>
+                <viewer id="710"/>
+            </viewers>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="N_stop"/>
+            <point latitude="6.339390609" longitude="99.731154227"/>
+        </object>
+        <object class="WED_TaxiRoute" id="710" parent_id="365">
+            <sources>
+                <source id="709"/>
+                <source id="711"/>
+            </sources>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="N"/>
+            <edge ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000"/>
+            <taxi_route oneway="0" runway="None" vehicle_class="Ground Trucks" width="E"/>
+            <departures>
+                <runway value="03"/>
+                <runway value="21"/>
+            </departures>
+            <arrivals>
+                <runway value="03"/>
+                <runway value="21"/>
+            </arrivals>
+            <ils_holds/>
+        </object>
+        <object class="WED_TaxiRouteNode" id="711" parent_id="365">
+            <sources/>
+            <viewers>
+                <viewer id="710"/>
+                <viewer id="712"/>
+            </viewers>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="N_stop"/>
+            <point latitude="6.336614448" longitude="99.729264403"/>
+        </object>
+        <object class="WED_TaxiRoute" id="712" parent_id="365">
+            <sources>
+                <source id="711"/>
+                <source id="713"/>
+            </sources>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="N"/>
+            <edge ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000"/>
+            <taxi_route oneway="0" runway="None" vehicle_class="Ground Trucks" width="E"/>
+            <departures>
+                <runway value="03"/>
+                <runway value="21"/>
+            </departures>
+            <arrivals>
+                <runway value="03"/>
+                <runway value="21"/>
+            </arrivals>
+            <ils_holds/>
+        </object>
+        <object class="WED_TaxiRouteNode" id="713" parent_id="365">
+            <sources/>
+            <viewers>
+                <viewer id="712"/>
+                <viewer id="714"/>
+            </viewers>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="N_stop"/>
+            <point latitude="6.336310259" longitude="99.729206850"/>
+        </object>
+        <object class="WED_TaxiRoute" id="714" parent_id="365">
+            <sources>
+                <source id="713"/>
+                <source id="715"/>
+            </sources>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="N"/>
+            <edge ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000"/>
+            <taxi_route oneway="0" runway="None" vehicle_class="Ground Trucks" width="E"/>
+            <departures>
+                <runway value="03"/>
+                <runway value="21"/>
+            </departures>
+            <arrivals>
+                <runway value="03"/>
+                <runway value="21"/>
+            </arrivals>
+            <ils_holds/>
+        </object>
+        <object class="WED_TaxiRouteNode" id="715" parent_id="365">
+            <sources/>
+            <viewers>
+                <viewer id="714"/>
+            </viewers>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="N_stop"/>
+            <point latitude="6.335929657" longitude="99.729063962"/>
+        </object>
+        <object class="WED_TaxiRoute" id="716" parent_id="559">
+            <sources>
+                <source id="608"/>
+                <source id="717"/>
+            </sources>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="N"/>
+            <edge ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000"/>
+            <taxi_route oneway="1" runway="None" vehicle_class="Aircraft" width="E"/>
+            <departures/>
+            <arrivals/>
+            <ils_holds/>
+        </object>
+        <object class="WED_TaxiRouteNode" id="717" parent_id="559">
+            <sources/>
+            <viewers>
+                <viewer id="716"/>
+                <viewer id="718"/>
+            </viewers>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="N_stop"/>
+            <point latitude="6.337777126" longitude="99.733026732"/>
+        </object>
+        <object class="WED_TaxiRoute" id="718" parent_id="559">
+            <sources>
+                <source id="717"/>
+                <source id="603"/>
+            </sources>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="N"/>
+            <edge ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000"/>
+            <taxi_route oneway="1" runway="None" vehicle_class="Aircraft" width="E"/>
+            <departures>
+                <runway value="03"/>
+                <runway value="21"/>
+            </departures>
+            <arrivals>
+                <runway value="03"/>
+                <runway value="21"/>
+            </arrivals>
+            <ils_holds/>
+        </object>
     </objects>
     <prefs>
         <pref name="PropertyPane0/Closed">
@@ -6619,18 +6947,19 @@
             <item value="17"/>
             <item value="365"/>
             <item value="374"/>
+            <item value="559"/>
         </pref>
         <pref name="doc/export_target" value="5"/>
         <pref name="doc/use_feet" value="1"/>
-        <pref name="map/east" value="99.719840"/>
-        <pref name="map/north" value="6.316794"/>
+        <pref name="map/east" value="99.734050"/>
+        <pref name="map/north" value="6.342680"/>
         <pref name="map/obj_density" value="6"/>
         <pref name="map/pavement_alpha" value="1"/>
         <pref name="map/preview_vis" value="1"/>
         <pref name="map/real_lines_vis" value="1"/>
-        <pref name="map/south" value="6.315263"/>
+        <pref name="map/south" value="6.341928"/>
         <pref name="map/vertices_vis" value="1"/>
-        <pref name="map/west" value="99.718552"/>
+        <pref name="map/west" value="99.733502"/>
         <pref name="map/world_map_vis" value="0"/>
         <pref name="map_Airport Beacon_Kind" value="69"/>
         <pref name="map_Boundary_.Markings" value=""/>
@@ -6652,7 +6981,7 @@
         <pref name="map_Light Fixture_Approach Angle" value="3.000000"/>
         <pref name="map_Light Fixture_Fixture Type" value="35"/>
         <pref name="map_Lines_Resource" value="CDB-Library/Airport/paviment/dashed_line.lin"/>
-        <pref name="map_Objects_Object" value="lib/airport/landscape/buoy.obj"/>
+        <pref name="map_Objects_Object" value="lib/g10/US/commercial/store_services.obj"/>
         <pref name="map_Objects_Show with" value="558"/>
         <pref name="map_Polygons_Heading" value="0.000000"/>
         <pref name="map_Polygons_Resource" value="lib/g10/terrain10/grass_rainforest_fl_tp.pol"/>
@@ -6678,12 +7007,13 @@
         <pref name="map_Sign_Text" value="{@R}24-06{@@,@Y}WELCOME"/>
         <pref name="map_Strings_Resource" value="lib/airport/lights/slow/102_edge_twy_B.str"/>
         <pref name="map_Strings_Spacing" value="5.000000"/>
+        <pref name="map_Taxi Routes_." value="527"/>
         <pref name="map_Taxi Routes_Allowed Vehicles" value="144"/>
-        <pref name="map_Taxi Routes_Arrival" value="168,240"/>
-        <pref name="map_Taxi Routes_Departure" value="168,240"/>
+        <pref name="map_Taxi Routes_Arrival" value=""/>
+        <pref name="map_Taxi Routes_Departure" value=""/>
         <pref name="map_Taxi Routes_ILS" value=""/>
-        <pref name="map_Taxi Routes_Name" value=""/>
-        <pref name="map_Taxi Routes_Oneway" value="0"/>
+        <pref name="map_Taxi Routes_Name" value="N"/>
+        <pref name="map_Taxi Routes_Oneway" value="1"/>
         <pref name="map_Taxi Routes_Runway" value="305"/>
         <pref name="map_Taxi Routes_Size" value="527"/>
         <pref name="map_Taxi Routes_Slop" value="20"/>
@@ -6697,16 +7027,16 @@
         <pref name="map_Taxiway_Pavement" value="26"/>
         <pref name="map_Taxiway_Roughness" value="0.000000"/>
         <pref name="map_Tower Viewpoint_Tower Height" value="25.000000"/>
-        <pref name="map_Truck Destination_Truck Types" value=""/>
+        <pref name="map_Truck Destination_Truck Types" value="157"/>
         <pref name="map_Truck Parking_." value="3"/>
         <pref name="map_Truck Parking_Truck Type" value="156"/>
         <pref name="map_Vertex_Snap To Vertices" value="1"/>
         <pref name="map_Windsock_Lit" value="0"/>
         <pref name="window/height" value="827"/>
-        <pref name="window/main_split" value="132"/>
-        <pref name="window/main_split2" value="890"/>
-        <pref name="window/prev_split" value="321"/>
-        <pref name="window/prop_split" value="318"/>
+        <pref name="window/main_split" value="354"/>
+        <pref name="window/main_split2" value="1024"/>
+        <pref name="window/prev_split" value="351"/>
+        <pref name="window/prop_split" value="528"/>
         <pref name="window/width" value="1440"/>
         <pref name="window/x_loc" value="-1448"/>
         <pref name="window/y_loc" value="168"/>

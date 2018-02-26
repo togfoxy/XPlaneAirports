@@ -454,7 +454,7 @@ I
 1201  06.33515407  099.72941275 both 13 GA stand 1
 1201  06.31627243  099.71939243 both 14 N_stop
 1201  06.31583559  099.71922843 both 15 N_stop
-1201  06.31571171  099.71884797 both 16 N_stop
+1201  06.31571171  099.71884796 both 16 N_stop
 1201  06.31594643  099.71863805 both 17 N_stop
 1201  06.31625939  099.71874957 both 18 N_stop
 1201  06.31674187  099.71968762 both 19 N_stop
@@ -462,31 +462,42 @@ I
 1201  06.33531283  099.72923098 both 21 _stop
 1201  06.33548574  099.72935408 both 22 unnamed entity(split)
 1201  06.33599529  099.72974251 both 23 _stop
-1201  06.34116763  099.73342548 both 24 _stop
-1201  06.34085124  099.73320556 both 25 unnamed entity(split)
-1201  06.34016011  099.73272369 both 26 unnamed entity(split)
-1201  06.33971006  099.73240340 both 27 unnamed entity(split)
-1201  06.33888563  099.73184608 both 28 unnamed entity(split)
-1201  06.33866116  099.73169439 both 29 C_stop
-1201  06.33813850  099.73130173 both 30 unnamed entity(split)
-1201  06.33775205  099.73101659 both 31 unnamed entity(split)
-1201  06.33735272  099.73071849 both 32 unnamed entity(split)
-1201  06.33697271  099.73044631 both 33 unnamed entity(split)
-1201  06.33661202  099.73018062 both 34 unnamed entity(split)
-1201  06.33620625  099.72987604 both 35 unnamed entity(split)
-1201  06.33781344  099.73298367 both 36 C_stop
-1201  06.34074141  099.73411180 both 37 B_stop
-1201  06.34031031  099.73475099 both 38 B_stop
-1201  06.34174357  099.73481806 both 39 A_stop
-1201  06.34148501  099.73417763 both 40 unnamed entity(split)
-1201  06.34422365  099.73653336 both 41 A_stop
-1201  06.34440399  099.73676017 both 42 A_stop
-1201  06.34450060  099.73720085 both 43 A_stop
-1201  06.34439755  099.73755079 both 44 A_stop
-1201  06.34382734  099.73822695 both 45 RWY_stop
-1201  06.32020449  099.72206794 both 46 RWY_start
-1201  06.33730593  099.73376306 both 47 unnamed entity(split)
-1201  06.33983884  099.73549753 both 48 unnamed entity(split)
+1201  06.34121301  099.73355078 both 24 _stop
+1201  06.34077521  099.73323856 both 25 unnamed entity(split)
+1201  06.34010514  099.73277973 both 26 unnamed entity(split)
+1201  06.33962934  099.73245431 both 27 unnamed entity(split)
+1201  06.33885101  099.73192150 both 28 unnamed entity(split)
+1201  06.33862750  099.73176966 both 29 C_stop
+1201  06.33806573  099.73138477 both 30 unnamed entity(split)
+1201  06.33767898  099.73111995 both 31 unnamed entity(split)
+1201  06.33728506  099.73085074 both 32 unnamed entity(split)
+1201  06.33688583  099.73059201 both 33 unnamed entity(split)
+1201  06.33649039  099.73032631 both 34 unnamed entity(split)
+1201  06.33609620  099.73005670 both 35 unnamed entity(split)
+1201  06.34075300  099.73413511 both 36 B_stop
+1201  06.34031031  099.73475099 both 37 B_stop
+1201  06.34174357  099.73481806 both 38 A_stop
+1201  06.34148501  099.73417763 both 39 unnamed entity(split)
+1201  06.34422365  099.73653336 both 40 A_stop
+1201  06.34440399  099.73676017 both 41 A_stop
+1201  06.34450060  099.73720085 both 42 A_stop
+1201  06.34439755  099.73755079 both 43 A_stop
+1201  06.34382734  099.73822695 both 44 RWY_stop
+1201  06.32020449  099.72206794 both 45 RWY_start
+1201  06.33730593  099.73376306 both 46 unnamed entity(split)
+1201  06.33983884  099.73549753 both 47 unnamed entity(split)
+1201  06.33777713  099.73302673 both 48 N_stop
+1201  06.33592966  099.72906396 both 49 N_stop
+1201  06.33631026  099.72920685 both 50 N_stop
+1201  06.33661445  099.72926440 both 51 N_stop
+1201  06.33939061  099.73115423 both 52 N_stop
+1201  06.34015049  099.73168223 both 53 N_stop
+1201  06.34132016  099.73245751 both 54 N_stop
+1201  06.34220447  099.73306611 both 55 N_stop
+1201  06.34249376  099.73333072 both 56 N_stop
+1201  06.34252162  099.73349620 both 57 N_stop
+1201  06.34249423  099.73368363 both 58 N_stop
+1201  06.34234167  099.73392023 both 59 New Service Truck 17
 1202 15 14 twoway taxiway_E 
 1204 departure 03,21
 1204 arrival 03,21
@@ -505,7 +516,7 @@ I
 1202 19 18 twoway taxiway_E N
 1204 departure 03,21
 1204 arrival 03,21
-1202 46 19 twoway taxiway_E N
+1202 45 19 twoway taxiway_E N
 1204 departure 03,21
 1204 arrival 03,21
 1202 11 21 twoway taxiway_E 
@@ -524,7 +535,7 @@ I
 1202 3 27 twoway taxiway_E 
 1202 2 26 twoway taxiway_E 
 1202 0 25 twoway taxiway_E 
-1202 1 40 twoway taxiway_E 
+1202 1 39 twoway taxiway_E 
 1202 29 30 twoway taxiway_E 
 1202 30 31 twoway taxiway_E 
 1202 31 32 twoway taxiway_E 
@@ -532,39 +543,50 @@ I
 1202 33 34 twoway taxiway_E 
 1202 34 35 twoway taxiway_E 
 1202 35 23 twoway taxiway_E 
-1202 36 29 twoway taxiway_E C
-1202 39 40 twoway taxiway_E 
-1202 40 24 twoway taxiway_E 
+1202 38 39 twoway taxiway_E 
+1202 39 24 twoway taxiway_E 
 1202 24 25 twoway taxiway_E 
 1202 25 26 twoway taxiway_E 
 1202 26 27 twoway taxiway_E 
 1202 27 28 twoway taxiway_E 
 1202 28 29 twoway taxiway_E 
-1202 37 24 twoway taxiway_E 
-1202 47 36 twoway taxiway_E C
+1202 36 24 twoway taxiway_E 
+1202 37 36 twoway taxiway_E B
+1202 47 37 twoway taxiway_E B
 1204 departure 03,21
 1204 arrival 03,21
-1202 38 37 twoway taxiway_E B
-1202 48 38 twoway taxiway_E B
-1204 departure 03,21
-1204 arrival 03,21
-1202 41 39 twoway taxiway_E A
+1202 40 38 twoway taxiway_E A
+1202 41 40 twoway taxiway_E A
 1202 42 41 twoway taxiway_E A
 1202 43 42 twoway taxiway_E A
 1202 44 43 twoway taxiway_E A
-1202 45 44 twoway taxiway_E A
 1204 departure 03,21
 1204 arrival 03,21
+1202 45 46 twoway runway 03/21
+1204 departure 03,21
+1204 arrival 03,21
+1204 ils 03,21
 1202 46 47 twoway runway 03/21
 1204 departure 03,21
 1204 arrival 03,21
 1204 ils 03,21
-1202 47 48 twoway runway 03/21
+1202 47 44 twoway runway 03/21
 1204 departure 03,21
 1204 arrival 03,21
 1204 ils 03,21
-1202 48 45 twoway runway 03/21
+1202 48 46 oneway taxiway_E N
 1204 departure 03,21
 1204 arrival 03,21
-1204 ils 03,21
+1202 29 48 oneway taxiway_E N
+1206 50 49 twoway  N
+1206 51 50 twoway  N
+1206 52 51 twoway  N
+1206 53 52 twoway  N
+1206 54 53 twoway  N
+1206 55 54 twoway  N
+1206 56 55 twoway  N
+1206 57 56 twoway  N
+1206 58 57 twoway  N
+1206 59 58 twoway  N
+1400  6.34234167  99.73392023  305.94 pushback 0 New Service Truck 17
 99
